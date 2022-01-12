@@ -7,13 +7,15 @@
 - Implémentation du Menu, merci Daniil 
 - Compréhension du Menu
 
-## 28/12/21 :
-- Génération de la map
-- Affichage de la map en 2D
+## 02/01/22 :
+- Création du fichier GAME
+- Comprenant la classe Game_M relier à la classe Menu du fichier MENU
 
-## 29/12/21 :
-- Commentaires dans le code
-- Tentative de mettre des textures sur les murs
+## 03-07/01/22 :
+- Création des commanes afin de pouvoir jouer au jeu
+- Question, database document json
 
-## 01/01/22 :
-- Possibilité de changer les réglages sans tout casser
+## 11-12/01/22 :
+- Finalisation de la version BETA du projet
+- Reglagent des bugs
+- Le jeu n'ai pas encore entièrement fonctionnel
