@@ -21,7 +21,14 @@
 - Ajouter un écran de fin
 
 
-## Pour voir la progression, ouvrir le doc progression.md
+## Modules Importées :
+- pygame
+- random
+- os
+- json
+
+
+# Pour voir la progression, ouvrir le doc progression.md
 
 
 
