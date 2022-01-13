@@ -14,10 +14,10 @@
 
 
 ## Le programme n'est pas fini il manque :
-- Enlever les proposition de la liste petit à petit, pour éviter de ce retrouver avec plusieurs fois les même proposition parmi les choix
+- ~~Enlever les proposition de la liste petit à petit, pour éviter de ce retrouver avec plusieurs fois les même proposition parmi les choix~~
 - Afficher les images des personnage en plus grand
-- Pouvoir répondre à la question avec la variable **answer**
-- Changer le display lorsque il y a une nouveau question
+- ~~Pouvoir répondre à la question avec la variable **answer**~~
+- ~~Changer le display lorsque il y a une nouveau question~~
 - Ajouter un écran de fin
 
 
@@ -28,7 +28,7 @@
 - json
 
 
-# Pour voir la progression, ouvrir le doc progression.md
+# Pour voir la Progression, ouvrir le doc progression.md
 
 
 
