@@ -28,7 +28,7 @@ class Main():
 		self.path = 'data\\collections'
 		self.collection = None
 		self.question = []
-		self.answer = []
+		self.answer = None
 		self.image = None
 		self.proposition1 = []
 		self.proposition2 = []
@@ -90,7 +90,7 @@ class Main():
 		temp_listnumber = [1, 2, 3, 4]
 
 		data = self.get_data()
-		random_personnage = str(random.randint(0, len(data)-2))
+		random_personnage = str(random.randint(1, len(data)-2))
 		random_personnage = str("Personnage_" + random_personnage)
 		self.answer = str(data[random_personnage]["Answer"])
 		self.image =  str(data[random_personnage]["Image"])
@@ -98,12 +98,16 @@ class Main():
 		self.image = pygame.image.load(self.image)
 
 		temp_question = self.question.copy()
+		temp_question.remove(self.answer)
 
 		self.proposition1 = temp_question[random.randint(0, len(temp_question) - 1)]
+		temp_question.remove(self.proposition1)
 
 		self.proposition2 = temp_question[random.randint(0, len(temp_question) - 1)]
+		temp_question.remove(self.proposition2)
 
 		self.proposition3 = temp_question[random.randint(0, len(temp_question) - 1)]
+		temp_question.remove(self.proposition3)
 
 		self.posible_answer = [self.answer, self.proposition1, self.proposition2, self.proposition3]
 
@@ -120,9 +124,3 @@ class Main():
 	def draw_image(self):
 
 		self.display.blit(self.image, (50, 50))
-
-
-
-
-
- 
