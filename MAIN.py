@@ -30,9 +30,9 @@ class Main():
 		self.question = []
 		self.answer = None
 		self.image = None
-		self.proposition1 = []
-		self.proposition2 = []
-		self.proposition3 = []
+		self.proposition1 = None
+		self.proposition2 = None
+		self.proposition3 = None
 		self.posible_answer = []
 
 
