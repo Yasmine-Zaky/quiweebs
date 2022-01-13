@@ -18,7 +18,6 @@ class Game_M(Menu):
 
 		self.round = 1
 		self.score = 0
-		self.good_answer = False
 
 	def display_menu(self):
 		self.run_display = True
@@ -69,7 +68,10 @@ class Game_M(Menu):
 	def check_input(self):
 		self.move_cursor()
 		if self.game.START_KEY:
-			self.run_display = False
+			if self.state == 'Answer1':
+				self.score += 1
+				self.game.posible_answer[0] = self.game.answer
+				self.game.random_question()
 
-	def next_round(self):
-		""""""
+			if self.round == 10:  # Not Working
+				self.run_display = False
