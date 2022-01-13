@@ -14,11 +14,11 @@
 
 
 ## Le programme n'est pas fini il manque :
-1. ~~Enlever les proposition de la liste petit à petit, pour éviter de ce retrouver avec plusieurs fois les même proposition parmi les choix~~
-2. Afficher les images des personnage en plus grand
-3. ~~Pouvoir répondre à la question avec la variable **answer**~~
-4. ~~Changer le display lorsque il y a une nouveau question~~
-5. Ajouter un écran de fin
+1. [ ] Enlever les proposition de la liste petit à petit, pour éviter de ce retrouver avec plusieurs fois les même proposition parmi les choix
+2. [x] Afficher les images des personnage en plus grand
+3. [x] Pouvoir répondre à la question avec la variable **answer**
+4. [x] Changer le display lorsque il y a une nouveau question
+5. [ ] Ajouter un écran de fin
 
 
 ## Modules Importées :
