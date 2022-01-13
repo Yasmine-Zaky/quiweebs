@@ -17,5 +17,10 @@
 
 ## 11-12/01/22 :
 - Finalisation de la version BETA du projet
-- Reglagent des bugs
+- Reglage des bugs
 - Le jeu n'ai pas encore entièrement fonctionnel
+
+## 13/01/22 :
+- Reglage des bugs : 
+  1. Création d'une Boucle, pas encore de Fin (ajouter limite)
+  2. Plusieurs fois les mêmes Propositions dans une Seule question, donc plusieurs bonnes réponses
